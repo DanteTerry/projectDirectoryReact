@@ -1,8 +1,9 @@
 .projects {
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(32.5rem, 1fr));
+  grid-gap: 20px;
   justify-items: center;
   justify-content: center;
-  padding: 3rem;
+  padding: 3rem 4.5rem;
 }

@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  .p {
+    display: inline-block;
+  }
+  .footer_link {
+    display: inline-block;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+  }
+}
